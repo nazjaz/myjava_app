@@ -23,13 +23,6 @@
                     <target>11</target>
                 </configuration>
             </plugin>
-        </plugins>
-    </build>
-    
-    <packaging>jar</packaging>
-    
-    <build>
-        <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
@@ -38,12 +31,14 @@
                     <archive>
                         <manifest>
                             <addClasspath>true</addClasspath>
-                            <mainClass>java_app</mainClass>
+                            <mainClass>HelloWorld</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
             </plugin>
         </plugins>
     </build>
+
+    <packaging>jar</packaging>
     
 </project>
